@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+<title>Cybage</title>
+</head>
+
+<body>
+<script>
+var newLine = "<br />";
+
+// Create a user-defined object.
+var obj = {};
+
+// Add a data property to the object.
+ Object.defineProperty(obj, "newProperty", {
+    value: 101,
+     writable: true,
+    enumerable: true,
+    configurable: false
+});
+
+// Set the property value.
+obj.newProperty = 102;
+console.log("Property value: " + obj.newProperty + newLine);
+
+
+
+var descriptor = Object.getOwnPropertyDescriptor(obj, "newProperty");
+for (var prop in descriptor) {
+    document.write(prop + ': ' + descriptor[prop]);
+    document.write(newLine);
+}
+// Output:
+// Property value: 102
+</script>
+</body>

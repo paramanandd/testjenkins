@@ -1,0 +1,10 @@
+DELIMITER $$
+
+DROP PROCEDURE IF EXISTS `mydatabase`.`salaryProcedure` $$
+CREATE PROCEDURE `mydatabase`.`salaryProcedure` (IN id integer,IN hra integer,OUT salary decimal)
+BEGIN
+update emp set sal=(sal+(hra*0.1)) where empid=id;
+select sal into salary from emp where empid=id;
+END $$
+
+DELIMITER ;

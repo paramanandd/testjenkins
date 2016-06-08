@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<script>
+var context;
+var x=120;
+var y=200;
+var x1=5;
+var y1=5;
+
+function init()
+{
+  context= myCanvas.getContext('2d');
+  setInterval(draw,5);
+}
+
+function draw()
+{
+  context.clearRect(0,0, 900,650);
+  context.beginPath();
+  context.fillStyle="#0000ff";
+  context.arc(x,y,20,0,Math.PI*2,true);
+  context.closePath();
+  context.fill();
+  // Boundary Logic
+if( x<0 || x>900) x1=-x1; 
+if( y<0 || y>650) y1=-y1; 
+x+=x1; 
+y+=y1;
+}
+
+</script>
+<body onLoad="init();">
+  <canvas id="myCanvas" width="900" height="650" >
+  </canvas>
+</body>
+</html>

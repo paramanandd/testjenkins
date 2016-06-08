@@ -1,0 +1,12 @@
+Q1) Create an HTML page to accept the amount of any item and ask for the discount,
+	display the final amount for the customer to pay.(eg, 100rs is the item, discount is 20% then 80rs is 
+	to be paid by the customer).
+		
+Q2) Display a CLOCK on the page which will show HH:MM:SS ,if possible enhance the code so that it continuously keeps 
+	on working same like our Digital Clock.
+	
+Q3)  	selector api
+
+Q4) Draw circular gradient .
+
+Q5) Create a drop-down menu which is displayed on the home page of every site.

@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title> My variable scope program </title>
+	</head>
+		<body>
+			<script>
+				//create 2 global variables
+				var message = "outside global message";
+				var otherGlobalVariable = "other global variable";
+				//create a function with a local variable
+				//having the same name as the first global variable
+				function getMessage(){
+				var message = "inside local variable";
+				//the function display the message variable
+				console.log(message);
+				//and it also alerts the second global variable
+				console.log(otherGlobalVariable);
+				//the function ends here
+				}
+				
+				getMessage();//call the function
+				console.log(message);
+	        </script>
+        </body>
+</html>

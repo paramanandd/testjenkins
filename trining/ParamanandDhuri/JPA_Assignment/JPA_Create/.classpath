@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/jpa-lib">
+		<attributes>
+			<attribute name="owner.project.facets" value="jpt.jpa"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Java/CybageNet/WebContent/WEB-INF/lib/mysql-connector-java-5.0.4-bin.jar"/>
+	<classpathentry kind="lib" path="D:/all jars/eclipselinkjars/commonj.sdo_2.1.1.v201112051852.jar"/>
+	<classpathentry kind="lib" path="D:/all jars/eclipselinkjars/eclipselink.jar"/>
+	<classpathentry kind="lib" path="D:/all jars/eclipselinkjars/javax.mail_1.4.0.v201005080615.jar"/>
+	<classpathentry kind="lib" path="D:/all jars/eclipselinkjars/javax.persistence.source_2.1.0.v201304241213.jar"/>
+	<classpathentry kind="lib" path="D:/all jars/eclipselinkjars/javax.persistence_2.1.0.v201304241213.jar"/>
+	<classpathentry kind="lib" path="D:/all jars/eclipselinkjars/javax.validation_1.1.0.v201304101302.jar"/>
+	<classpathentry kind="lib" path="D:/all jars/eclipselinkjars/javax.xml.bind_2.2.12.v201410011542.jar"/>
+	<classpathentry kind="lib" path="D:/all jars/eclipselinkjars/jaxb-core_2.2.11.v201407311112.jar"/>
+	<classpathentry kind="lib" path="D:/all jars/eclipselinkjars/jaxb-xjc_2.2.11.v201407311112.jar"/>
+	<classpathentry kind="lib" path="D:/all jars/eclipselinkjars/org.eclipse.persistence.jpa.modelgen.source_2.6.0.v20150309-bf26070.jar"/>
+	<classpathentry kind="lib" path="D:/all jars/eclipselinkjars/org.eclipse.persistence.jpa.modelgen_2.6.0.v20150309-bf26070.jar"/>
+	<classpathentry kind="lib" path="D:/all jars/eclipselinkjars/org.eclipse.persistence.jpars.source_2.6.0.v20150309-bf26070.jar"/>
+	<classpathentry kind="lib" path="D:/all jars/eclipselinkjars/org.eclipse.persistence.jpars_2.6.0.v20150309-bf26070.jar"/>
+	<classpathentry kind="lib" path="D:/all jars/eclipselinkjars/org.glassfish.javax.json_1.0.4.v201311181159.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+	<head>
+	</head>
+	<body>
+		<script>
+				var a=	{
+						a=1
+						}
+				b=Object.create(a);
+					
+		</script>
+	</body>
+	
+</html>

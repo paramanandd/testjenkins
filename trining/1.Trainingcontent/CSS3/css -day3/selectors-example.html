@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Selector Example</title>
+		<style> 
+		* {
+			color: green;
+		}
+		
+		/*	-------------	Strict : next immediately 1 adjacent 	---------------	*/
+		ul + p {
+			 color: red;
+		 }
+		 
+		/*	--------------	Less Strict :  adjacent ------------------------		*/
+			ul ~ p {
+			 font-size: 18px;
+		 } 
+		 
+		div:not(.someelement) {
+		 font-weight: bold;
+		}
+		 
+		
+		/*
+		ul li:first-child {
+			color: yellow;
+		}		
+		*/
+		/*
+		ul li:last-child {
+			color: yellow;
+		}
+		*/
+		
+		/*
+		li:nth-child(2) {
+			color: blue;
+		}
+		*/
+		
+			 
+		</style>
+	</head>
+	<body>
+		<div class="parent1">
+			This is in parent1
+				<p>
+					This is in parent1 -P.
+					<div class="parent2">
+						This is in parent2.
+						<p>
+							This is in parent2-p.
+						</p>
+					</div>
+				</p>
+		</div>
+		
+		<hr />
+		   
+      <ul>
+         <li> List Item </li>
+         <li> List Item </li>
+         <li> List Item </li>
+         <li> List Item </li>
+      </ul>
+
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. </p>
+   
+	 
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. </p>
+		
+
+			<div>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.Lorem ipsum dolor sit amet, 
+			consectetur adipisicing elit, sed do eiusmod tempor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.	</div>
+			
+			<div class="someelement">	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.Lorem ipsum dolor sit amet, 
+			consectetur adipisicing elit, sed do eiusmod tempor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.	</div>
+		
+		
+	</body>
+</html>

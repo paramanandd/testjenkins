@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gradient Example</title>
+	<style> 
+		/* Top to bottom */
+		
+		/*
+			background: linear-gradient(direction, color-stop1, color-stop2, ...);
+		*/
+		
+		.grad1 {
+			height: 100px;
+			background: -webkit-linear-gradient(pink,green);
+			background: -o-linear-gradient(pink,green);
+			background: -moz-linear-gradient(pink,green); 
+			background: linear-gradient(pink,green); 
+		}
+
+		/* Left to Right */
+		.grad2 {
+			height: 100px;
+			background: -webkit-linear-gradient(left, red , blue);
+			background: -o-linear-gradient(left, red, blue); 
+			background: -moz-linear-gradient(left, red, blue);
+			background: linear-gradient(left, red , blue);
+		}
+		
+		/* Diagonal */	
+		.grad3 {
+			height: 100px;
+			background: -webkit-linear-gradient(left top, red , blue); 
+			background: -o-linear-gradient(bottom right, red, blue); 
+			background: -moz-linear-gradient(bottom right, red, blue);
+			background: linear-gradient(to bottom right, red , blue); 
+		}
+		
+		/* Multi color */	
+		.grad4 {
+			height: 100px;
+			background: red; /* For browsers that do not support gradients */
+			background: -webkit-linear-gradient(red, yellow, green); /* For Safari 5.1 to 6.0 */
+			background: -o-linear-gradient(red, yellow, green); /* For Opera 11.1 to 12.0 */
+			background: -moz-linear-gradient(red, yellow, green); /* For Firefox 3.6 to 15 */
+			background: linear-gradient(red, yellow, green); /* Standard syntax */
+		}
+		
+		/* Radial */
+		.grad5 {
+			width: 200px;
+			height: 200px;
+			background: red; /* For browsers that do not support gradients */
+			background: -webkit-radial-gradient(red, yellow, green); /* Safari 5.1 to 6.0 */
+			background: -o-radial-gradient(red, yellow, green); /* For Opera 11.6 to 12.0 */
+			background: -moz-radial-gradient(red, yellow, green); /* For Firefox 3.6 to 15 */
+			background: radial-gradient(red, yellow, green); /* Standard syntax */
+		}
+		
+		
+
+		
+		
+	</style>
+</head>
+<body>
+	
+	<div class="grad1"></div>
+	
+	<div class="grad2"></div>
+	
+	<div class="grad3"></div>
+	
+	<div class="grad4"></div>
+	
+	<div class="grad5"></div>
+	
+</body>
+</html>

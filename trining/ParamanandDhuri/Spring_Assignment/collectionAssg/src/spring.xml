@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<bean id="mobid" class="com.cybage.Mob">
+	<property name="ls">
+		<list>
+			<value>1</value>
+			<ref bean="mobileid"/>		
+		</list>
+	</property>
+	<property name="st">
+		<set>
+			<value>2</value>
+			<ref bean="mobileid"/>
+		</set>
+	</property>
+	<property name="mp">
+			<map>
+				<entry key="3" value-ref="mobileid" />
+				<!--  <entry key="2"> <ref bean="mobileid"/></entry>-->
+				</map>
+		</property>
+</bean>
+
+<bean id="mobileid" class="com.cybage.Mobile">
+	<property name="model" value="iphone4"/>
+	<property name="company" value="Apple"/>
+	<property name="price" value="20000"/>
+</bean>
+</beans>

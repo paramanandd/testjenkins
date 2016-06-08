@@ -1,0 +1,120 @@
+
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<title>Forms Complete Example</title>
+</head>
+<body>
+	<form id="register">
+		<h1>Register for Miss Bakers Space Cadets</h1>
+		<fieldset>
+			<legend>Personal details</legend>
+			<div>
+				<label>First Name <input id="given-name" name="given-name"
+					type="text" placeholder="First name only" required autofocus><br/><br/>
+				</label>
+			</div>
+			<div>
+				<label>Last Name <input id="family-name" name="family-name"
+					type="text" placeholder="Last name only" required autofocus><br/><br/>
+				</label>
+			</div>
+			<div>
+				<label>Date of Birth <input id="dob" name="dob" type="date"
+					required><br/><br/>
+				</label>
+			</div>
+			<div>
+				<label>Email <input id="email" name="email" type="email"
+					placeholder="example@domain.com" required><br/><br/>
+				</label>
+			</div>
+			<div>
+				<label>URL <input id="url" name="url" type="url"
+					placeholder="http://mysite.com"><br/><br/>
+				</label>
+			</div>
+			<div>
+				<label>Telephone <input id="phone" name="phone" type="tel"
+					placeholder="Eg. +447000 000000" required><br/><br/>
+				</label>
+			</div>
+			<div>
+				<label>Height in feet <input id="height" name="height"
+					type="number" min="6" max="8" step="0.5" value="9"><br/><br/>
+				</label>
+			</div>
+			<div>
+				<label>Flying Skill level (1 low - 100 high) <input
+					id="skill" name="skill" type="range" min="1" max="100" value="0"><br/><br/>
+					<output name="output" onforminput="value=a.value">0</output>
+				</label>
+			</div>
+		</fieldset>
+		<fieldset>
+			<legend>Billing address</legend>
+			<div>
+				<label>Address <textarea id="address" name="address" rows=5
+						required></textarea>
+				</label>
+			</div>
+			<div>
+				<label>Post code <input id="postCode" name="postCode"
+					type="text" required><br/><br/>
+				</label>
+			</div>
+			<div>
+
+				<label>Your favorite fruit: <datalist id="fruits">
+						<select name="fruits">
+							<option value="Blackberry">Blackberry</option>
+							<option value="Blackcurrant">Blackcurrant</option>
+							<option value="Blueberry">Blueberry</option>
+						</select> If other, please specify:
+					</datalist> <input type="text" name="fruit" list="fruits" multiple>
+				</label>
+			</div>
+		</fieldset>
+		<fieldset>
+			<legend>Card details</legend>
+			<fieldset>
+				<legend>Card type</legend>
+				<div class="card-type">
+					<input id="visa" name="cardtype" type="radio"> <label
+						for="visa">VISA</label> <input id="mastercard" name="cardtype"
+						type="radio"> <label for="mastercard">Mastercard</label> <input
+						id="amex" name="cardtype" type="radio"> <br/><br/><label for="amex">AMEX</label>
+				</div>
+			</fieldset>
+			<div>
+				<label>Name <input id="cardName" name="cardName" type="text"
+					placeholder="Name as it appears on your card" required><br/><br/>
+				</label>
+			</div>
+			<div>
+				<label>Card number <input id="cardNo" name="cardNo"
+					type="number" required
+					title="The sixteen digit number across the middle of your card."><br/><br/>
+				</label>
+			</div>
+			<div>
+				<label>Security code <input id="security" name="security"
+					type="number" required pattern="[0-9]{3}"
+					title="The last three digits on the back of your card."><br/><br/>
+				</label>
+			</div>
+			<div>
+				<label>Expiry Date <input id="expiry" name="expiry"
+					type="month"><br/><br/>
+				</label>
+			</div>
+		</fieldset>
+		<fieldset>
+			<div>
+				<button type=submit>Place Order</button>
+			</div>
+		</fieldset>
+	</form>
+</body>
+</html>

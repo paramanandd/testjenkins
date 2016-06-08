@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+<title>Cybage</title>
+</head>
+
+<body>
+<span id="d1" style="background-color:lightyellow;color:green;font:italic;font-style:silver"></span>
+	<script>
+		function myfun(obj)
+		{
+			obj.brand="jaguar";
+		}
+		var mycar={	
+					color:"white",
+					price:"$455454",
+					brand:"ferrrai"			
+				};
+		
+		console.log(mycar.brand);
+		
+		myfun(mycar);
+		console.log(mycar.brand);
+		document.getElementById("d1").innerHTML = mycar.brand;
+				
+	</script>
+	
+	
+</body>

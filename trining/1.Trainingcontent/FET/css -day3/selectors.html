@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Selector Example</title>
+		<style> 
+		.parent1 > p {
+			color: red;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="parent1">
+			This is in parent1
+				<p>
+					This is in parent1 -P.
+					<div class="parent2">
+						This is in parent2.
+						<p>
+							This is in parent2-p.
+						</p>
+					</div>
+				</p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre7">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/asm-3.1.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/cglib-2.2.2.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/commons-codec.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/commons-httpclient.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/commons-logging.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/ivy.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/jets3t.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.aop-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.aop-sources-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.asm-3.0.0.M3 (2).jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.asm-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.asm-sources-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.aspects-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.aspects-sources-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.beans-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.beans-sources-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.build.aws.ivy.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.context.support-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.context.support-sources-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.context-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.context-sources-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.core-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.core-sources-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.expression-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.expression-sources-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.instrument.tomcat-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.instrument.tomcat-sources-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.instrument-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.instrument-sources-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.jdbc-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.jdbc-sources-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.jms-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.jms-sources-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.orm-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.orm-sources-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.oxm-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.oxm-sources-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.test-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.test-sources-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.transaction-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.transaction-sources-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.web.portlet-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.web.portlet-sources-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.web.servlet-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.web.servlet-sources-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.web.struts-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.web.struts-sources-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.web-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/org.springframework.web-sources-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/spring-webmvc.jar"/>
+	<classpathentry kind="lib" path="D:/SpringJars/jars/spring-webmvc-3.2.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/jars/Jars/jstl.jar"/>
+	<classpathentry kind="lib" path="D:/jars/Jars/log4j.jar"/>
+	<classpathentry kind="lib" path="D:/jars/Jars/mysql-connector-java-5.0.4-bin.jar"/>
+	<classpathentry kind="lib" path="D:/jars/Jars/standard.jar"/>
+	<classpathentry kind="lib" path="D:/Java/CybageNet/WebContent/WEB-INF/lib/jstl.jar"/>
+	<classpathentry kind="lib" path="D:/Java/CybageNet/WebContent/WEB-INF/lib/log4j.jar"/>
+	<classpathentry kind="lib" path="D:/Java/CybageNet/WebContent/WEB-INF/lib/mysql-connector-java-5.0.4-bin.jar"/>
+	<classpathentry kind="lib" path="D:/Java/CybageNet/WebContent/WEB-INF/lib/standard.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
